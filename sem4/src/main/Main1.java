@@ -1,7 +1,6 @@
 package main;
 
-
-import ro.ase.cts.singleton.Radio;
+import ro.ase.cts.singleton.*;
 
 public class Main1 {
     public static void main(String[] args) {
@@ -17,4 +16,5 @@ public class Main1 {
         System.out.println(radio2.toString());
     }
 
+//    bunnnnaaanananana
 }
