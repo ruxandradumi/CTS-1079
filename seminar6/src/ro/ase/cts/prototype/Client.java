@@ -1,6 +1,6 @@
 package ro.ase.cts.prototype;
 
-public class Client implements IClientPrototype {
+public class Client implements AbstractPrototype {
     private int codClient;
     private String nume;
     private int varsta;
@@ -29,7 +29,7 @@ public class Client implements IClientPrototype {
 
 
     @Override
-    public IClientPrototype copiaza() {
+    public AbstractPrototype copiaza() {
 
         Client client = new Client();
         client.codClient = this.codClient;
